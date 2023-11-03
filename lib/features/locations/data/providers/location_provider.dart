@@ -6,7 +6,7 @@ import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:http/http.dart' as http;
 
 class LocationProvider {
-  final String key = "AIzaSyC8o3ShF1B6EBxuEqY04RTZ9bGKcfYmkM8";
+  final String key = "GOOGLE MAPS API KEY";
   Future<String?> getPlaceId(String input) async {
     String url =
         "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=$input&inputtype=textquery&key=$key";
